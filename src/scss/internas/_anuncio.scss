@@ -1,0 +1,22 @@
+.caracteristicas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resumen-propiedad {
+    .iconos-caracteristicas {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        max-width: 40rem;
+    
+        li {
+            margin-right: 5rem;
+
+            &:last-of-type {
+                margin: 0;
+            }
+        }
+    }
+}
+
